@@ -1,7 +1,29 @@
-🦆 DuckQuest Challenge
+# 🦆 Welcome to DuckQuest Challenge
 
-You've got maps, you've got a map evaluator. No need to explain what to do.
+## 🗺️ The Mission
+You’ve received a set of **corrupted maps**. Each one hides the location of a secret duck — a QR code taped somewhere on campus.
 
-There are five winning flags. Once you find a flag, grab it and bring it back to the Café. If you find the location of one and it’s already taken, just move on and try another map.
+Your job is to **fix each map manually** and use the `map_evaluator` program to verify your solution.
 
-Happy hunting!
+Each map leads to **one duck**. There are **five maps** in total.
+
+## 🧩 How It Works
+
+1. **Correct the broken map** (yes, by hand).
+2. **Run it through the evaluator**:
+   ```bash
+   ./map_evaluator fixed_map.txt
+   ```
+3. If the map is correct, the program will reveal the **exact workstation location**.
+4. Go to that station IRL, look **under the keyboard**, and grab the QR code (that’s your duck).
+5. Bring the QR code to the **Café** to complete the challenge.
+
+## 🏁 Rules & Tips
+- If the duck is already gone, someone beat you to it. Try another map.
+- Each QR code is a physical flag — only one per map.
+- You must bring the **actual QR code** to the Café to win.
+
+## 🐣 Good Luck
+Fix the maps. Find the ducks. Win eternal duck glory.
+
+Let the hunt begin!
