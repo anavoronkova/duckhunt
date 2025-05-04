@@ -1,4 +1,4 @@
-#🦆 DuckQuest Challenge
+🦆 DuckQuest Challenge
 
 You've got maps, you've got a map evaluator. No need to explain what to do.
 
